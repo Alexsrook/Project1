@@ -1,0 +1,76 @@
+.logo > img {
+position: fixed;
+
+}
+
+
+.Topnav {
+
+justify-content: center;
+position:sticky;
+text-align: center;
+padding: -30px 20px;
+margin: 10px;
+
+}
+
+a:hover{
+background-color: rgb(16, 161, 161);
+text-decoration:none;
+}
+
+body {
+background-color: lightblue;
+}
+.Intro {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgb(9, 148, 148);
+  border: 2px solid rgb(9, 148, 148);
+  height: 360px;
+  width: 700px;
+  flex-wrap: wrap;
+  margin-left: 375px;
+
+}
+
+.Intro > img {
+justify-content: center;
+
+}
+
+.Things {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgb(9, 148, 148);
+  border: 2px solid rgb(9, 148, 148);
+  height: 1600px;
+  width:900px;
+  flex-wrap:wrap;
+
+margin-left: 300px;
+
+}
+
+.Actbox {
+text-align: center;
+
+}
+
+.Actbox > img {
+float: left;
+
+
+}
+
+.End {
+font-size: 30px;
+
+}
+
+.Credits {
+  padding-top: 60px;
+text-align: center;
+font-style: italic;
+  font-size: 10px;
+}

@@ -1,0 +1,58 @@
+body {
+  background-color: lightblue;
+
+}
+
+.logo > img {
+position: fixed;
+
+}
+
+
+.Topnav {
+
+justify-content: center;
+position:sticky;
+text-align: center;
+padding: -30px 20px;
+margin: 10px;
+
+}
+
+a:hover{
+background-color: rgb(16, 161, 161);
+text-decoration:none;
+}
+
+.Title {
+text-align: center;
+font-family: cursive;
+font-size: 30px;
+}
+
+.Contactinfo {
+  box-sizing: border-box;
+  background-color: rgb(9, 148, 148);
+  border: 2px solid rgb(9, 148, 148);
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 460px;
+
+}
+
+.Littlebox  {
+
+  border: 2px solid rgb(9,148,148);
+  width: 400px;
+
+}
+
+.Credits {
+  padding-top: 60px;
+text-align: center;
+font-style: italic;
+  font-size: 10px;
+}

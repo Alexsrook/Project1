@@ -1,0 +1,74 @@
+body {
+  background-color: lightblue;
+
+}
+
+.logo > img {
+position: fixed;
+
+}
+
+
+.Topnav {
+
+justify-content: center;
+position:sticky;
+text-align: center;
+padding: -30px 20px;
+margin: 10px;
+
+}
+
+a:hover{
+background-color: rgb(16, 161, 161);
+text-decoration:none;
+}
+
+
+.Header {
+
+text-align: center;
+}
+
+.Header > h1 {
+font-family: cursive;
+color: rgb(59, 196, 196);
+font-size: 70px;
+
+}
+
+
+.ParentBox {
+box-sizing: border-box;
+background-color: rgb(9, 148, 148);
+border: 2px solid rgb(9, 148, 148);
+height: 400px;
+width: 700px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-left: 375px;
+}
+
+.Box{
+text-align: center;
+align-items: center;
+float: left;
+box-sizing: border-box;
+border: 2px solid rgb(2, 102, 102);
+width: 300px;
+
+}
+
+.Box > h2 {
+color: aqua;
+font-family: cursive;
+
+}
+
+.Credits {
+  padding-top: 60px;
+text-align: center;
+font-style: italic;
+  font-size: 10px;
+}
